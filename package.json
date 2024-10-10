@@ -1,0 +1,14 @@
+{
+  "name": "cernunnos",
+  "version": "0.1.0",
+  "homepage": "https://kroros.github.io/CernunnosStatic/",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "dependencies": {
+    "dateonly": "^1.2.0"
+  }
+}

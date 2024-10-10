@@ -1,0 +1,142 @@
+
+* {
+    background-color: #000000;
+    color: rgb(0, 200, 0);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 200, 0)
+}
+html {
+    font-size: 160%;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+li {
+    padding-left: 0;
+    margin-left: 0;
+}
+::selection{
+    background-color: rgb(0, 200, 0);
+    color: black;
+}
+.pageTitle {
+    text-align: left;
+    margin-bottom: 0;
+}
+.linkList {
+    text-align: left;
+    padding-left: 0;
+}
+.mainLink {
+    color: rgb(0, 200, 0);
+    text-decoration: none;
+    text-align: left;
+}
+.coverImage {
+    width: 100%;
+}
+.imageContainer {
+    color: white;
+    position: relative;
+}
+.imageCaption {
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    font-family: "Helvetica";
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 20px #FFFFFF, 1px 1px 20px #FFFFFF;
+}
+.paragraph {
+    display: block;
+    width: 100%;
+    color: rgb(0, 200, 0);
+    margin-bottom: 0;
+}
+.paragraphTitle {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    margin-bottom: 0;
+}
+.paragraphText {
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    margin-top: auto;
+    text-align: left;
+    margin-bottom: 0;
+    width: 50%;
+}
+.imageLinkContainer {
+    display: inline-block;
+    border: 1px solid rgb(0, 200, 0);
+    white-space: nowrap;
+}
+.imageLink {
+    text-decoration: none;
+    color: rgb(0, 200, 0);
+    margin: 0;
+}
+.linkIcon {
+    width: 0.3in;
+}
+.buttonContainer {
+    display: inline-block;
+    text-decoration: none;
+}
+table {
+    border: 1px solid rgb(0, 200, 0)
+}
+.tableRow {
+    border: 1px solid rgb(0, 200, 0)
+}
+.tableData {
+    border: 1px solid rgb(0, 200, 0)
+}
+.tableHeader {
+    border: 1px solid rgb(0, 200, 0)
+}
+.buttonLink {
+    padding: 0;
+    border: none;
+    background: none;
+}
+.returnButton {
+    display: inline-block;
+    border: 1px solid rgb(0, 200, 0);
+}
+.postButton {
+    border: 1px solid rgb(0, 200, 0);
+    margin-top: 1%;
+}
+.commentInput {
+    display: block;
+    border: 1px solid rgb(0, 200, 0);
+    width: 60%;
+    overflow: scroll;
+    caret-shape: block;
+    caret-color: rgb(0, 200, 0);
+    resize: none;
+}
+.commentInput:focus {
+    outline: none;
+}
+.postBox {
+    display: block;
+    border: 0px;
+    width: 100%;
+    padding: 0%;
+}
+.postContainer {
+    display: block;
+    margin-left: 0;
+    border: 1px solid rgb(0, 200, 0);
+    width: 90%;
+}
