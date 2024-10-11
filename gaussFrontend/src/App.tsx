@@ -1,6 +1,5 @@
 import "./App.css";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import { useParams } from "react-router-dom";
 import Home from "./Pages/home";
 import Galaxy from "./Pages/galaxy";
 import TableGalaxy from "./Pages/Subpages/tableGalaxy";
