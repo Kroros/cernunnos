@@ -1,5 +1,5 @@
 function ReturnButton() {
-    var snd = new Audio("src/snd/buttonClick.mp3");
+    var snd = new Audio("public/snd/buttonClick.mp3");
     return (
       <>
         <a href="/" className="mainLink">
@@ -17,4 +17,4 @@ function ReturnButton() {
     );
 }
 
-export default ReturnButton
+export default ReturnButton;
