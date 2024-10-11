@@ -23,9 +23,9 @@ function StarSystem() {
         `}
         />
         <FileLink
-          fileLink={"img/lvgvs_star.png"}
+          fileLink={"src/img/lvgvs_star.png"}
           caption={"lvgvs_star.img"}
-          icoSource={"img/ico/imgIco.png"}
+          icoSource={"src/img/ico/imgIco.png"}
         />
         <br />
         <Paragraph
@@ -36,34 +36,34 @@ function StarSystem() {
             `}
         />
         <FileLink
-          fileLink={"img/gwydion.png"}
+          fileLink={"src/img/gwydion.png"}
           caption={"gwydion.img"}
-          icoSource={"img/ico/imgIco.png"}
+          icoSource={"src/img/ico/imgIco.png"}
         />
         <FileLink
-          fileLink={"img/esvs.png"}
+          fileLink={"src/img/esvs.png"}
           caption={"esvs.img"}
-          icoSource={"img/ico/imgIco.png"}
+          icoSource={"src/img/ico/imgIco.png"}
         />
         <FileLink
-          fileLink={"img/ogmios.png"}
+          fileLink={"src/img/ogmios.png"}
           caption={"ogmios.img"}
-          icoSource={"img/ico/imgIco.png"}
+          icoSource={"src/img/ico/imgIco.png"}
         />
         <FileLink
-          fileLink={"img/epona.png"}
+          fileLink={"src/img/epona.png"}
           caption={"epona.img"}
-          icoSource={"img/ico/imgIco.png"}
+          icoSource={"src/img/ico/imgIco.png"}
         />
         <FileLink
-          fileLink={"img/taranis.png"}
+          fileLink={"src/img/taranis.png"}
           caption={"taranis.img"}
-          icoSource={"img/ico/imgIco.png"}
+          icoSource={"src/img/ico/imgIco.png"}
         />
         <FileLink
-          fileLink={"img/midir.png"}
+          fileLink={"src/img/midir.png"}
           caption={"midir.img"}
-          icoSource={"img/ico/imgIco.png"}
+          icoSource={"src/img/ico/imgIco.png"}
         />
         <br />
         <Paragraph
@@ -75,34 +75,34 @@ function StarSystem() {
         <FileLink
           fileLink={"#/reportGwydion"}
           caption={"gwydion.rep"}
-          icoSource={"img/ico/repIco.png"}
+          icoSource={"src/img/ico/repIco.png"}
         />
 
         <FileLink
           fileLink={"#/reportEsvs"}
           caption={"esvs.rep"}
-          icoSource={"img/ico/repIco.png"}
+          icoSource={"src/img/ico/repIco.png"}
         />
 
         <FileLink
           fileLink={"#/reportOgmios"}
           caption={"ogmios.rep"}
-          icoSource={"img/ico/repIco.png"}
+          icoSource={"src/img/ico/repIco.png"}
         />
         <FileLink
           fileLink={"#/reportEpona"}
           caption={"epona.rep"}
-          icoSource={"img/ico/repIco.png"}
+          icoSource={"src/img/ico/repIco.png"}
         />
         <FileLink
           fileLink={"#/reportTaranis"}
           caption={"taranis.rep"}
-          icoSource={"img/ico/repIco.png"}
+          icoSource={"src/img/ico/repIco.png"}
         />
         <FileLink
           fileLink={"#/reportMidir"}
           caption={"midir.rep"}
-          icoSource={"img/ico/repIco.png"}
+          icoSource={"src/img/ico/repIco.png"}
         />
         <br />
         <Paragraph
@@ -114,7 +114,7 @@ function StarSystem() {
         <FileLink
           fileLink={"#/reportLvgvs"}
           caption={"lvgvs.tab"}
-          icoSource={"img/ico/tabIco.png"}
+          icoSource={"src/img/ico/tabIco.png"}
         />
       </>
     );

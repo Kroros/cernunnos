@@ -20,6 +20,7 @@ import Forum from "./Pages/Forum";
 import PostPage from "./Components/PostPage";
 import Prologue from "./Pages/Prologue";
 import FileLost from "./Pages/FileLost";
+import DataRecovery2 from "./Pages/DataRecovery2";
 
 function App() {
   return (
@@ -37,10 +38,10 @@ function App() {
         <Route path="/starSystem" element={<StarSystem />} />
         <Route path="/planet" element={<Planet />} />
         <Route path="/hayat" element={<Life />} />
-        {/* <Route path="/hikma" element={<DataRecovery />} />
-        <Route path="/mujtama" element={<DataRecovery />} />
-        <Route path="/luga" element={<DataRecovery />} />
-        <Route path="/tarikh" element={<DataRecovery />} /> */}
+        <Route path="/hikma" element={<DataRecovery2 />} />
+        <Route path="/mujtama" element={<DataRecovery2 />} />
+        <Route path="/luga" element={<DataRecovery2 />} />
+        <Route path="/tarikh" element={<DataRecovery2 />} />
 
         {/* Galaxy Subpages */}
         <Route path="/reportAvon" element={<AvonRep />} />

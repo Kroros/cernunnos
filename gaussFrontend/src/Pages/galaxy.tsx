@@ -13,9 +13,9 @@ function Galaxy() {
               Vessel computer is currently measuring dimensions of the galaxy.`}
       />
       <FileLink
-        fileLink={"img/avon_galaxy.png"}
+        fileLink={"src/img/avon_galaxy.png"}
         caption={"avon_galaxy.img"}
-        icoSource={"img/ico/imgIco.png"}
+        icoSource={"src/img/ico/imgIco.png"}
       />
 
       <Paragraph
@@ -28,7 +28,7 @@ function Galaxy() {
       <FileLink
         fileLink={"#/galacticdata"}
         caption={"table_1.tab"}
-        icoSource={"img/ico/tabIco.png"}
+        icoSource={"src/img/ico/tabIco.png"}
       ></FileLink>
 
       <Paragraph
@@ -43,9 +43,9 @@ function Galaxy() {
           See tarvos.img for result.`}
       />
       <FileLink
-        fileLink={"img/tarvos.png"}
+        fileLink={"src/img/tarvos.png"}
         caption={"tarvos.img"}
-        icoSource={"img/ico/imgIco.png"}
+        icoSource={"src/img/ico/imgIco.png"}
       />
 
       <br />
@@ -66,7 +66,7 @@ function Galaxy() {
       <FileLink
         fileLink={"#/reportAvon"}
         caption={"avon.rep"}
-        icoSource={"img/ico/repIco.png"}
+        icoSource={"src/img/ico/repIco.png"}
       ></FileLink>
     </>
   );
