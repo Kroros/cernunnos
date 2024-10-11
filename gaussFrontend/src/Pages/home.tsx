@@ -1,5 +1,5 @@
 function Home() {
-  var snd = new Audio("public/snd/buttonClick.mp3")
+  var snd = new Audio("snd/buttonClick.mp3")
   return (
     <>
       <div className="pageBody">

@@ -25,57 +25,57 @@ function Planet() {
       <FileLink
         fileLink={"#/annwnTab"}
         caption={"annwn.tab"}
-        icoSource={"public/img/ico/tabIco.png"}
+        icoSource={"img/ico/tabIco.png"}
       />
       <FileLink
         fileLink={"#/gwynnTab"}
         caption={"gwynn.tab"}
-        icoSource={"public/img/ico/tabIco.png"}
+        icoSource={"img/ico/tabIco.png"}
       />
       <FileLink
-        fileLink={"public/img/annwn_2000.png"}
+        fileLink={"img/annwn_2000.png"}
         caption={"annwn.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/new_moon.png"}
+        fileLink={"img/new_moon.png"}
         caption={"new_moon.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/waxing_crescent.png"}
+        fileLink={"img/waxing_crescent.png"}
         caption={"waxing_crescent.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/first_quarter.png"}
+        fileLink={"img/first_quarter.png"}
         caption={"first_quarter.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/waxing_gibbous.png"}
+        fileLink={"img/waxing_gibbous.png"}
         caption={"waxing_gibbous.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/full_moon.png"}
+        fileLink={"img/full_moon.png"}
         caption={"full_moon.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/waning_gibbous.png"}
+        fileLink={"img/waning_gibbous.png"}
         caption={"waning_gibbous.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/third_quarter.png"}
+        fileLink={"img/third_quarter.png"}
         caption={"third_quarter.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/waning_crescent.png"}
+        fileLink={"img/waning_crescent.png"}
         caption={"waning_crescent.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <br />
       <Paragraph
@@ -106,24 +106,24 @@ function Planet() {
             `}
       />
       <FileLink
-        fileLink={"public/img/1900-1.png"}
+        fileLink={"img/1900-1.png"}
         caption={"annwn_100_1.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/1900-2.png"}
+        fileLink={"img/1900-2.png"}
         caption={"annwn_100_2.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/1900Ma.png"}
+        fileLink={"img/1900Ma.png"}
         caption={"[RECONSTRUCTION]climes_100.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
         fileLink={"#/planet"}
         caption={"7 FILES LOST"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <br />
       <Paragraph
@@ -135,29 +135,29 @@ function Planet() {
             `}
       />
       <FileLink
-        fileLink={"public/img/1800-1.png"}
+        fileLink={"img/1800-1.png"}
         caption={"annwn_200_1.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/1800-2.png"}
+        fileLink={"img/1800-2.png"}
         caption={"annwn_200_2.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/1800-3.png"}
+        fileLink={"img/1800-3.png"}
         caption={"annwn_200_3.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/1800Ma.png"}
+        fileLink={"img/1800Ma.png"}
         caption={"[RECONSTRUCTION]climes_200.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
         fileLink={"#/planet"}
         caption={"7 FILES LOST"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <br />
       <Paragraph
@@ -168,24 +168,24 @@ function Planet() {
             `}
       />
       <FileLink
-        fileLink={"public/img/1700-1.png"}
+        fileLink={"img/1700-1.png"}
         caption={"annwn_300_1.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/1700-2.png"}
+        fileLink={"img/1700-2.png"}
         caption={"annwn_300_2.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/1700Ma.png"}
+        fileLink={"img/1700Ma.png"}
         caption={"[RECONSTRUCTION]climes_300.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
         fileLink={"#/planet"}
         caption={"7 FILES LOST"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <br />
       <Paragraph
@@ -196,29 +196,29 @@ function Planet() {
             `}
       />
       <FileLink
-        fileLink={"public/img/1500-1.png"}
+        fileLink={"img/1500-1.png"}
         caption={"annwn_500_1.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/1500-2.png"}
+        fileLink={"img/1500-2.png"}
         caption={"annwn_500_2.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/1500-3.png"}
+        fileLink={"img/1500-3.png"}
         caption={"annwn_500_3.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/1500Ma.png"}
+        fileLink={"img/1500Ma.png"}
         caption={"[RECONSTRUCTION]climes_500.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
         fileLink={"#/planet"}
         caption={"7 FILES LOST"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <br />
       <Paragraph
@@ -228,34 +228,34 @@ function Planet() {
             `}
       />
       <FileLink
-        fileLink={"public/img/1400-1.png"}
+        fileLink={"img/1400-1.png"}
         caption={"annwn_600_1.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/1400-2.png"}
+        fileLink={"img/1400-2.png"}
         caption={"annwn_600_2.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/1400-3.png"}
+        fileLink={"img/1400-3.png"}
         caption={"annwn_600_3.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/1400-4.png"}
+        fileLink={"img/1400-4.png"}
         caption={"annwn_600_4.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/1400Ma.png"}
+        fileLink={"img/1400Ma.png"}
         caption={"[RECONSTRUCTION]climes_600.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
         fileLink={"#/planet"}
         caption={"7 FILES LOST"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <br />
       <Paragraph
@@ -266,39 +266,39 @@ function Planet() {
             `}
       />
       <FileLink
-        fileLink={"public/img/1300-1.png"}
+        fileLink={"img/1300-1.png"}
         caption={"annwn_700_1.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/1300-2.png"}
+        fileLink={"img/1300-2.png"}
         caption={"annwn_700_2.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/1300-3.png"}
+        fileLink={"img/1300-3.png"}
         caption={"annwn_700_3.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/1300-4.png"}
+        fileLink={"img/1300-4.png"}
         caption={"annwn_700_4.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/1300-5.png"}
+        fileLink={"img/1300-5.png"}
         caption={"annwn_700_5.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/1300Ma.png"}
+        fileLink={"img/1300Ma.png"}
         caption={"[RECONSTRUCTION]climes_700.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
         fileLink={"#/planet"}
         caption={"7 FILES LOST"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <br />
       <Paragraph
@@ -313,54 +313,54 @@ function Planet() {
             `}
       />
       <FileLink
-        fileLink={"public/img/topomap.png"}
+        fileLink={"img/topomap.png"}
         caption={"annwn_topo_850.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/climate.png"}
+        fileLink={"img/climate.png"}
         caption={"annwn_climate_zones.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/wind1.png"}
+        fileLink={"img/wind1.png"}
         caption={"prevailing_winds_1.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/wind2.png"}
+        fileLink={"img/wind2.png"}
         caption={"prevailing_winds_2.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/currents1.png"}
+        fileLink={"img/currents1.png"}
         caption={"ocean_currents_1.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/currents2.png"}
+        fileLink={"img/currents2.png"}
         caption={"ocean_currents_2.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/rain1.png"}
+        fileLink={"img/rain1.png"}
         caption={"precipitation_1.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/rain2.png"}
+        fileLink={"img/rain2.png"}
         caption={"precipiation_2.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/temp1.png"}
+        fileLink={"img/temp1.png"}
         caption={"temperature_1.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
       <FileLink
-        fileLink={"public/img/temp2.png"}
+        fileLink={"img/temp2.png"}
         caption={"temperature_2.img"}
-        icoSource={"public/img/ico/imgIco.png"}
+        icoSource={"img/ico/imgIco.png"}
       />
     </>
   );

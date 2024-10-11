@@ -6,7 +6,7 @@ interface File {
 
 function FileLink({ fileLink, caption, icoSource }: File) {
   var icon = false;
-  var snd = new Audio("public/snd/buttonClick.mp3");
+  var snd = new Audio("snd/buttonClick.mp3");
   return (
     <>
       <a
