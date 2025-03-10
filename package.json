@@ -9,6 +9,7 @@
     "build": "react-scripts build"
   },
   "dependencies": {
-    "dateonly": "^1.2.0"
+    "dateonly": "^1.2.0",
+    "react-router-sitemap": "^1.2.0"
   }
 }
