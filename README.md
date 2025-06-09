@@ -1,1 +1,1 @@
-[Cernunnos Project](cernunnos.eu)
+[Cernunnos Project](https://cernunnos.eu/)
