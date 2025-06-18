@@ -4,7 +4,7 @@ import Home from "./Pages/home";
 import Galaxy from "./Pages/galaxy";
 import TableGalaxy from "./Pages/Subpages/tableGalaxy";
 import AvonRep from "./Pages/Subpages/avonRep";
-import Life from "./Pages/life";
+import Life from "./Pages/Life";
 import StarSystem from "./Pages/starSystem";
 import EponaRep from "./Pages/Subpages/EponaRep";
 import EsvsRep from "./Pages/Subpages/EsvsRep";
@@ -21,6 +21,7 @@ import PostPage from "./Components/PostPage";
 import Prologue from "./Pages/Prologue";
 import FileLost from "./Pages/FileLost";
 import DataRecovery2 from "./Pages/DataRecovery2";
+import History from "./Pages/History";
 
 function App() {
   return (
@@ -37,11 +38,11 @@ function App() {
         <Route path="/galaxy" element={<Galaxy />} />
         <Route path="/starSystem" element={<StarSystem />} />
         <Route path="/planet" element={<Planet />} />
-        <Route path="/hayat" element={<Life />} />
+        <Route path="/life" element={<Life />} />
         <Route path="/hikma" element={<DataRecovery2 />} />
-        <Route path="/mujtama" element={<DataRecovery2 />} />
-        <Route path="/luga" element={<DataRecovery2 />} />
-        <Route path="/tarikh" element={<DataRecovery2 />} />
+        <Route path="/history" element={<History />} />
+        <Route path="/language" element={<DataRecovery2 />} />
+
 
         {/* Galaxy Subpages */}
         <Route path="/reportAvon" element={<AvonRep />} />

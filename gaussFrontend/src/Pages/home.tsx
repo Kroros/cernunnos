@@ -60,7 +60,7 @@ function Home() {
             </a>
           </li>
           <li>
-            <a href="#/hayat" className="mainLink">
+            <a href="#/life" className="mainLink">
               <button
                 className="buttonLink"
                 onClick={() => {
@@ -68,12 +68,12 @@ function Home() {
                   snd.currentTime = 0;
                 }}
               >
-                [DATA CORRUPTED] {/*species evolution*/}
+                evolution of life [MASSIVE DATA LOSS: RECOVERY IN PROGRESS]
               </button>
             </a>
           </li>
           <li>
-            <a href="#/hikma" className="mainLink">
+            <a href="#/history" className="mainLink">
               <button
                 className="buttonLink"
                 onClick={() => {
@@ -81,12 +81,12 @@ function Home() {
                   snd.currentTime = 0;
                 }}
               >
-                [DATA CORRUPTED] {/*Emergence of sapience*/}
+                history and culture [MASSIVE DATA LOSS: RECOVERY IN PROGRESS]
               </button>
             </a>
           </li>
           <li>
-            <a href="#/mujtama" className="mainLink">
+            <a href="#/language" className="mainLink">
               <button
                 className="buttonLink"
                 onClick={() => {
@@ -94,33 +94,7 @@ function Home() {
                   snd.currentTime = 0;
                 }}
               >
-                [DATA CORRUPTED] {/*Societal and Cultural Genesis*/}
-              </button>
-            </a>
-          </li>
-          <li>
-            <a href="#/luga" className="mainLink">
-              <button
-                className="buttonLink"
-                onClick={() => {
-                  snd.play();
-                  snd.currentTime = 0;
-                }}
-              >
-                [DATA CORRUPTED] {/*Language Evolution*/}
-              </button>
-            </a>
-          </li>
-          <li>
-            <a href="#/tarikh" className="mainLink">
-              <button
-                className="buttonLink"
-                onClick={() => {
-                  snd.play();
-                  snd.currentTime = 0;
-                }}
-              >
-                [DATA CORRUPTED] {/*History Timeline*/}
+                lanagues of annwn [MASSIVE DATA LOSS: IN RECOVERY QUEUE]
               </button>
             </a>
           </li>

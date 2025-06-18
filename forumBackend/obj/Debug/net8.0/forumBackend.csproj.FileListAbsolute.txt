@@ -51,7 +51,6 @@ D:\User\Documents\Worldbuilding\Worlds\SystemGauss\Website\cernunnos\forumBacken
 D:\User\Documents\Worldbuilding\Worlds\SystemGauss\Website\cernunnos\forumBackend\bin\Debug\net8.0\System.Composition.Hosting.dll
 D:\User\Documents\Worldbuilding\Worlds\SystemGauss\Website\cernunnos\forumBackend\bin\Debug\net8.0\System.Composition.Runtime.dll
 D:\User\Documents\Worldbuilding\Worlds\SystemGauss\Website\cernunnos\forumBackend\bin\Debug\net8.0\System.Composition.TypedParts.dll
-D:\User\Documents\Worldbuilding\Worlds\SystemGauss\Website\cernunnos\forumBackend\bin\Debug\net8.0\System.Text.Json.dll
 D:\User\Documents\Worldbuilding\Worlds\SystemGauss\Website\cernunnos\forumBackend\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
 D:\User\Documents\Worldbuilding\Worlds\SystemGauss\Website\cernunnos\forumBackend\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
 D:\User\Documents\Worldbuilding\Worlds\SystemGauss\Website\cernunnos\forumBackend\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
@@ -125,3 +124,4 @@ D:\User\Documents\Worldbuilding\Worlds\SystemGauss\Website\cernunnos\forumBacken
 D:\User\Documents\Worldbuilding\Worlds\SystemGauss\Website\cernunnos\forumBackend\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 D:\User\Documents\Worldbuilding\Worlds\SystemGauss\Website\cernunnos\forumBackend\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
 D:\User\Documents\Worldbuilding\Worlds\SystemGauss\Website\cernunnos\forumBackend\obj\Debug\net8.0\forumBac.4A81BA7B.Up2Date
+D:\User\Documents\Worldbuilding\Worlds\SystemGauss\Website\cernunnos\forumBackend\obj\Debug\net8.0\forumBackend.sourcelink.json

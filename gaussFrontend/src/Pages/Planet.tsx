@@ -88,7 +88,7 @@ function Planet() {
       <Paragraph
         head={""}
         text={`
-            [LOGS 98723-98733 CORRUPTED]
+            [MULTIPLE LOGS CORRUPTED]
             `}
       />
       <Paragraph
@@ -99,7 +99,7 @@ function Planet() {
       />
       <br />
       <Paragraph
-        head={"log 98723:"}
+        head={"log 99654:"}
         text={`
                 100 Million years since discovery. The super continent has split into 4 large continents.
                 Life still has not colonised land yet, but has undergone significant changes. Satallite images and heightmap below.
@@ -122,12 +122,12 @@ function Planet() {
       />
       <FileLink
         fileLink={"#/planet"}
-        caption={"7 FILES LOST"}
+        caption={"MULTIPLE FILES LOST"}
         icoSource={"img/ico/imgIco.png"}
       />
       <br />
       <Paragraph
-        head={"log 98725:"}
+        head={"log 100987:"}
         text={`
                 200 Million years since discovery. Continent breakup continues.
                 Life similar to what would be called plants on earth has colonised land, and along with it
@@ -156,12 +156,12 @@ function Planet() {
       />
       <FileLink
         fileLink={"#/planet"}
-        caption={"7 FILES LOST"}
+        caption={"MULTIPLE FILES LOST"}
         icoSource={"img/ico/imgIco.png"}
       />
       <br />
       <Paragraph
-        head={"log 98727:"}
+        head={"log 101797:"}
         text={`
                 300 Million years since discovery. Annwn has entered a super continent assembly phase, and with it entered an icehouse state.
                 Life has spread to almost all of the planet, though there are still large deserts and ice caps.
@@ -184,12 +184,12 @@ function Planet() {
       />
       <FileLink
         fileLink={"#/planet"}
-        caption={"7 FILES LOST"}
+        caption={"MULTIPLE FILES LOST"}
         icoSource={"img/ico/imgIco.png"}
       />
       <br />
       <Paragraph
-        head={"log 98729:"}
+        head={"log 102739:"}
         text={`
                 500 Million years since discovery. The continents have reassembled into a super continent, and massive ice caps have formed on the north pole.
 
@@ -217,12 +217,12 @@ function Planet() {
       />
       <FileLink
         fileLink={"#/planet"}
-        caption={"7 FILES LOST"}
+        caption={"MULTIPLE FILES LOST"}
         icoSource={"img/ico/imgIco.png"}
       />
       <br />
       <Paragraph
-        head={"log 98731:"}
+        head={"log 103320:"}
         text={`
                 600 Million years since discovery. Super continent break up has commenced again, ending the ice age.
             `}
@@ -254,12 +254,12 @@ function Planet() {
       />
       <FileLink
         fileLink={"#/planet"}
-        caption={"7 FILES LOST"}
+        caption={"MULTIPLE FILES LOST"}
         icoSource={"img/ico/imgIco.png"}
       />
       <br />
       <Paragraph
-        head={"log 98733:"}
+        head={"log 104984:"}
         text={`
                 700 Million years since discovery. Super continent breakup continues. 
                 The latest splitting of the continent has created a flood basalt that caused a mass extinction event, ending approximately 83% of all species, along with thrusting Annwn into a hothouse state.
@@ -297,17 +297,17 @@ function Planet() {
       />
       <FileLink
         fileLink={"#/planet"}
-        caption={"7 FILES LOST"}
+        caption={"MULTIPLE FILES LOST"}
         icoSource={"img/ico/imgIco.png"}
       />
       <br />
       <Paragraph
-        head={"log 98735:"}
+        head={"log 105267:"}
         text={`
                 850 Million years since discovery. Annwn has reentered super continent assembly, enough time has passed for the hothouse period
                 to end, and the passing of two continents through the poles has cooled the planet enough for icecaps to form. Most interestingly though,
-                it appears as if one particular species has evolved human-like sapience. This of course warrants more frequent logs.
-                Moreover I will document the climate and weather of Annwn from now on, which will be helpful in the study of all the cultures that I hope this species
+                it appears as if one particular species has evolved human-like sapience.
+                This warrants the logging of the more transient features of the planet, such as rivers and weather patterns, which will be helpful in the study of all the cultures that I hope this species
                 will bring forth. More info on this species in the 'life' section. For the maps below, maps designated 1 are mapped when the northern hemisphere
                 experiences its coldest month, maps designated 2 are mapped when the southern hemisphere experiences its coldest month.
             `}
