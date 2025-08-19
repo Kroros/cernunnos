@@ -22,6 +22,7 @@ import Prologue from "./Pages/Prologue";
 import FileLost from "./Pages/FileLost";
 import DataRecovery2 from "./Pages/DataRecovery2";
 import History from "./Pages/History";
+import GeoAgesTab from "./Pages/Subpages/geoAgesTab";
 
 function App() {
   return (
@@ -60,6 +61,9 @@ function App() {
         {/*Annwn Subpages*/}
         <Route path="annwnTab" element={<AnnwnTab />} />
         <Route path="gwynnTab" element={<GwynnTab />} />
+
+        {/*Evolution Subpages*/}
+        <Route path="geoAgesTab" element={<GeoAgesTab />}/>
       </Routes>
     </Router>
   );
