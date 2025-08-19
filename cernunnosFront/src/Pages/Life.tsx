@@ -2,7 +2,6 @@ import DataRecovery from "../Components/DataRecovery";
 import FileLink from "../Components/FileLink";
 import Paragraph from "../Components/Paragraph";
 import ReturnButton from "../Components/ReturnButton";
-import Tree from "react-d3-tree";
 
 function Life() {
     return (
