@@ -23,6 +23,7 @@ import FileLost from "./Pages/FileLost";
 import DataRecovery2 from "./Pages/DataRecovery2";
 import History from "./Pages/History";
 import GeoAgesTab from "./Pages/Subpages/geoAgesTab";
+import Genus from "./Pages/Genus";
 
 function App() {
   return (
@@ -64,6 +65,9 @@ function App() {
 
         {/*Evolution Subpages*/}
         <Route path="geoAgesTab" element={<GeoAgesTab />}/>
+        <Route path="/genus">
+            <Route path=":id" element={<Genus />} />
+        </Route>
       </Routes>
     </Router>
   );

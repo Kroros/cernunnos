@@ -2,8 +2,15 @@ import DataRecovery from "../Components/DataRecovery";
 import FileLink from "../Components/FileLink";
 import Paragraph from "../Components/Paragraph";
 import ReturnButton from "../Components/ReturnButton";
+import Tree from "react-d3-tree";
+import { arakochyla, type FlatNode } from "../cladogram"
+import buildTree from "../Extensions/buildTree";
+import renderNode from "../Extensions/renderNode";
+import { useState } from "react";
 
 function Life() {
+    const [ clade, setClade ] = useState<FlatNode[]>(arakochyla);
+
     return (
       <>
         <ReturnButton />
@@ -26,6 +33,28 @@ function Life() {
             caption="Geological time periods"
             icoSource="img/ico/tabIco.png"
         />
+
+        <div className="treeMap">
+            <ul className="cladeSelector">
+                <li className="cladeItem"><button className="cladeButton" onClick={() => setClade(arakochyla)}>Arakochyla</button></li>
+            </ul>
+
+            <Tree
+                data={buildTree(clade)}
+                rootNodeClassName="node__root"
+                branchNodeClassName="node__branch"
+                leafNodeClassName="node__leaf"
+                renderCustomNodeElement={renderNode}
+                orientation="vertical"
+                separation={{siblings: 3, nonSiblings: 3}}
+                pathFunc={"step"}
+                pathClassFunc={() => {
+                    return "link-default";
+                }}
+                translate={{x: 700, y: 100}}
+            />
+        </div>
+
       </>
     );
 }

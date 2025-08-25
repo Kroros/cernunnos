@@ -150,3 +150,63 @@ table {
     border: 1px solid rgb(0, 200, 0);
     width: 90%;
 }
+.treeMap {
+    background-color: black;
+    border: 1px solid rgb(0, 200, 0);
+    width: 90%;
+    height: 1000px;
+    margin-left: 5%;
+}
+.link-default {
+    stroke: rgb(0, 200, 0) !important;
+    stroke-width: 2px;
+    fill: none;
+}
+.cladeSelector {
+    background-color: #000000;
+    list-style-type: none;
+    margin-left: 35%;
+    overflow: hidde;
+}
+.cladeItem {
+    background-color: #000000;
+    border: 1px solid rgb(0, 200, 0);
+    float: left;
+    padding: 0.5%;
+}
+.cladeButton {
+    border: 0px;
+    display: block;
+    color: rgb(0, 200, 0);
+    text-align: center;
+}
+.infoBox {
+    width: 20%;
+    align-self: right;
+    border: 1px solid rgb(0, 200, 0);
+    margin-right: 2%;
+}
+.infoList {
+    margin-left: 2.5%;
+}
+.genusContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.genusDesc {
+    flex: 1;
+    color:rgb(0, 200, 0);
+}
+.genusTitle {
+    font-weight: 300;
+}
+.genusText {
+    flex: 1;
+}
+.genusImg {
+    width: 95%;
+    border: 1px solid rgb(0, 200, 0);
+    margin-left: 2.5%;
+    margin-top: 1%;
+}

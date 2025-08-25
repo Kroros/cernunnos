@@ -1,9 +1,6 @@
-import ReturnButton from "../../Components/ReturnButton"
-
 export default function GeoAgesTab() {
     return (
         <>
-            <ReturnButton />
             <table>
                 <tr>
                     <th className="tableHeader">Geological Eon</th>
