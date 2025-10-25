@@ -3,7 +3,7 @@ import FileLink from "../Components/FileLink";
 import Paragraph from "../Components/Paragraph";
 import ReturnButton from "../Components/ReturnButton";
 import Tree from "react-d3-tree";
-import { arakochyla, type FlatNode } from "../cladogram"
+import { arakochyla, plotochea, type FlatNode } from "../cladogram"
 import buildTree from "../Extensions/buildTree";
 import renderNode from "../Extensions/renderNode";
 import { useState } from "react";
@@ -37,6 +37,7 @@ function Life() {
         <div className="treeMap">
             <ul className="cladeSelector">
                 <li className="cladeItem"><button className="cladeButton" onClick={() => setClade(arakochyla)}>Arakochyla</button></li>
+                <li className="cladeItem"><button className="cladeButton" onClick={() => setClade(plotochea)}>Plotochea</button></li>
             </ul>
 
             <Tree

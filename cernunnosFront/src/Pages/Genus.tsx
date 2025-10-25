@@ -1,11 +1,49 @@
 import { useParams } from "react-router-dom"
 import type { FlatNode } from "../cladogram";
-import { arakochyla } from "../cladogram";
+import { arakochyla, plotochea } from "../cladogram";
 import InfoBox from "../Components/InfoBox";
+import type { BodyTraits } from "../cladogram";
 
 export default function Genus() {
-    const { id } = useParams<{ id: string}>();
-    const genus: FlatNode = arakochyla.find(g => g.id === id) ?? { id: "root", parent: null, name: "root", desc: "", habitat: "", reproduction: ""}
+    const { id } = useParams<{ id: string }>();
+
+    const nullTraits: BodyTraits = {
+        
+        motility: "Sessile",
+        symmetry: "Asymmteric",
+        segmented: false,
+        locomotion: "",
+        gasExchange: "Diffusion",
+        nutrition: "Leaves",
+        excretion: "Leaves",
+        senses: [""],
+        defence: "",
+        reproduction: {
+            manner: "Asexual",
+            isogamy: false,
+            ecy: "Monoecious",
+            sexDetermination: "",
+            fertilisation: "External",
+            morphology: ""
+        }
+    }
+
+    const nullGenus: FlatNode = { id: "root", parent: null, name: "root", desc: "", habitat: "", reproduction: "", bodyTraits: nullTraits}
+
+    //const genus: FlatNode = arakochyla.find(g => g.id === id) ?? { id: "root", parent: null, name: "root", desc: "", habitat: "", reproduction: "", bodyTraits: nullTraits}
+    let genus: FlatNode;
+
+    if (id?.startsWith("ypokinita.arakochyla")){
+        genus = arakochyla.find(g => g.id === id) ?? nullGenus;
+    } else if (id?.startsWith("ypokinita.plotochea")) {
+        genus = plotochea.find(g => g.id === id) ?? nullGenus;
+    }
+
+
+
+    else {
+        genus = nullGenus;
+    }
 
     const classification: string[] = genus.id.split(".").map((rank) => rank.charAt(0).toUpperCase() + rank.slice(1))
 
