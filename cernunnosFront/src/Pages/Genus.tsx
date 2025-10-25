@@ -3,7 +3,7 @@ import type { FlatNode } from "../cladogram";
 import { arakochyla, plotochea } from "../cladogram";
 import InfoBox from "../Components/InfoBox";
 import type { BodyTraits } from "../cladogram";
-import { Helmet } from "react-helmet-async";
+import { Meta, Title } from "react-head";
 
 export default function Genus() {
     const { id } = useParams<{ id: string }>();
@@ -49,14 +49,13 @@ export default function Genus() {
     const classification: string[] = genus.id.split(".").map((rank) => rank.charAt(0).toUpperCase() + rank.slice(1))
 
     return (
-        <>
-            <Helmet>
-                <title>{genus.name} | Cernunnos</title>
-                <meta name="description" content={genus.desc} />
-                <meta property="og:title" content={genus.name} />
-                <meta property="og:description" content={genus.desc} />
-                <meta property="og:image" content={`img/species/${genus.id}.png`} />
-            </Helmet>
+        <>  
+            <Title>{genus.name} | Cernunnos</Title>
+            <Meta name="description" content={genus.desc} />
+            <Meta property="og:title" content={genus.name} />
+            <Meta property="og:description" content={genus.desc} />
+            <Meta property="og:image" content={`img/species/${genus.id}.png`} />
+
             
             <div className="genusContainer">
                 <div className="genusText">

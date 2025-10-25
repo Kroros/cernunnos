@@ -1,6 +1,6 @@
 import "./App.css";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import { HelmetProvider } from "react-helmet-async";
+import { HeadProvider } from "react-head";
 import Home from "./Pages/home";
 import Galaxy from "./Pages/galaxy";
 import TableGalaxy from "./Pages/Subpages/tableGalaxy";
@@ -28,7 +28,7 @@ import Genus from "./Pages/Genus";
 
 function App() {
   return (
-    <HelmetProvider>
+    <HeadProvider>
         <Router>
         {/*Main pages*/}
         <Routes>
@@ -72,7 +72,7 @@ function App() {
             </Route>
         </Routes>
         </Router>
-    </HelmetProvider>
+    </HeadProvider>
   );
 }
 
