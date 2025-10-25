@@ -1,5 +1,6 @@
 import "./App.css";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { HelmetProvider } from "react-helmet-async";
 import Home from "./Pages/home";
 import Galaxy from "./Pages/galaxy";
 import TableGalaxy from "./Pages/Subpages/tableGalaxy";
@@ -27,49 +28,51 @@ import Genus from "./Pages/Genus";
 
 function App() {
   return (
-    <Router>
-      {/*Main pages*/}
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/prologue" element={<Prologue />} />
-        <Route path="/forum" element={<Forum />} />
-        <Route path="/filelost" element={<FileLost />} />
-        <Route path="/post">
-          <Route path=":postId" element={<PostPage />} />
-        </Route>
-        <Route path="/galaxy" element={<Galaxy />} />
-        <Route path="/starSystem" element={<StarSystem />} />
-        <Route path="/planet" element={<Planet />} />
-        <Route path="/life" element={<Life />} />
-        <Route path="/hikma" element={<DataRecovery2 />} />
-        <Route path="/history" element={<History />} />
-        <Route path="/language" element={<DataRecovery2 />} />
+    <HelmetProvider>
+        <Router>
+        {/*Main pages*/}
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/prologue" element={<Prologue />} />
+            <Route path="/forum" element={<Forum />} />
+            <Route path="/filelost" element={<FileLost />} />
+            <Route path="/post">
+            <Route path=":postId" element={<PostPage />} />
+            </Route>
+            <Route path="/galaxy" element={<Galaxy />} />
+            <Route path="/starSystem" element={<StarSystem />} />
+            <Route path="/planet" element={<Planet />} />
+            <Route path="/life" element={<Life />} />
+            <Route path="/hikma" element={<DataRecovery2 />} />
+            <Route path="/history" element={<History />} />
+            <Route path="/language" element={<DataRecovery2 />} />
 
 
-        {/* Galaxy Subpages */}
-        <Route path="/reportAvon" element={<AvonRep />} />
-        <Route path="/galacticdata" element={<TableGalaxy />} />
+            {/* Galaxy Subpages */}
+            <Route path="/reportAvon" element={<AvonRep />} />
+            <Route path="/galacticdata" element={<TableGalaxy />} />
 
-        {/*Star System Subpages*/}
-        <Route path="/reportGwydion" element={<GwydionRep />} />
-        <Route path="/reportEsvs" element={<EsvsRep />} />
-        <Route path="/reportOgmios" element={<OgmiosRep />} />
-        <Route path="/reportEpona" element={<EponaRep />} />
-        <Route path="/reportTaranis" element={<TaranisRep />} />
-        <Route path="/reportMidir" element={<MidirRep />} />
-        <Route path="/reportLvgvs" element={<LvgvsRep />} />
+            {/*Star System Subpages*/}
+            <Route path="/reportGwydion" element={<GwydionRep />} />
+            <Route path="/reportEsvs" element={<EsvsRep />} />
+            <Route path="/reportOgmios" element={<OgmiosRep />} />
+            <Route path="/reportEpona" element={<EponaRep />} />
+            <Route path="/reportTaranis" element={<TaranisRep />} />
+            <Route path="/reportMidir" element={<MidirRep />} />
+            <Route path="/reportLvgvs" element={<LvgvsRep />} />
 
-        {/*Annwn Subpages*/}
-        <Route path="annwnTab" element={<AnnwnTab />} />
-        <Route path="gwynnTab" element={<GwynnTab />} />
+            {/*Annwn Subpages*/}
+            <Route path="annwnTab" element={<AnnwnTab />} />
+            <Route path="gwynnTab" element={<GwynnTab />} />
 
-        {/*Evolution Subpages*/}
-        <Route path="geoAgesTab" element={<GeoAgesTab />}/>
-        <Route path="/genus">
-            <Route path=":id" element={<Genus />} />
-        </Route>
-      </Routes>
-    </Router>
+            {/*Evolution Subpages*/}
+            <Route path="geoAgesTab" element={<GeoAgesTab />}/>
+            <Route path="/genus">
+                <Route path=":id" element={<Genus />} />
+            </Route>
+        </Routes>
+        </Router>
+    </HelmetProvider>
   );
 }
 
