@@ -3,13 +3,20 @@ import FileLink from "../Components/FileLink";
 import Paragraph from "../Components/Paragraph";
 import ReturnButton from "../Components/ReturnButton";
 import Tree from "react-d3-tree";
-import { arakochyla, plotochea, type FlatNode } from "../cladogram"
+import { opinnmagi, holtdyyr, hringlagaform, thyrnaform, ljousaeti, six, type FlatNode } from "../cladogram"
 import buildTree from "../Extensions/buildTree";
 import renderNode from "../Extensions/renderNode";
 import { useState } from "react";
 
 function Life() {
-    const [ clade, setClade ] = useState<FlatNode[]>(arakochyla);
+    const [ clade, setClade ] = useState<FlatNode[]>(opinnmagi);
+    var snd = new Audio("snd/buttonClick.mp3");
+
+    function cladeSetter(taxon: FlatNode[]) {
+        snd.play();
+        snd.currentTime = 0;        
+        setClade(taxon);
+    }
 
     return (
       <>
@@ -19,13 +26,13 @@ function Life() {
         <Paragraph 
             head="Life History"
             text={`
-                Life history on Annwn has been documented below. To provide context on the habitats of each species, the continents have been divided into sectors that remained constant between 470Ma and 850Ma since discovery.
+                Life history on Annwn has been documented below. To provide context on the habitats of each species, a map of the biogeographic realms of Annwn has been provided below.
                 Geological time periods have been tabulated below.
                 `}
         />
         <FileLink 
-            fileLink="/img/sector_divisions.png"
-            caption="Sector Divisions"
+            fileLink="/img/biogeo_realms.png"
+            caption="Biogeographic Realms"
             icoSource="img/ico/imgIco.png"
         />
         <FileLink
@@ -36,8 +43,12 @@ function Life() {
 
         <div className="treeMap">
             <ul className="cladeSelector">
-                <li className="cladeItem"><button className="cladeButton" onClick={() => setClade(arakochyla)}>Arakochyla</button></li>
-                <li className="cladeItem"><button className="cladeButton" onClick={() => setClade(plotochea)}>Plotochea</button></li>
+                <li className="cladeItem"><button className="cladeButton" onClick={() => cladeSetter(opinnmagi)}>Opinnmagi</button></li>
+                <li className="cladeItem"><button className="cladeButton" onClick={() => cladeSetter(holtdyyr)}>Holtdyyr</button></li>
+                <li className="cladeItem"><button className="cladeButton" onClick={() => cladeSetter(hringlagaform)}>Hringlagaform</button></li>
+                <li className="cladeItem"><button className="cladeButton" onClick={() => cladeSetter(thyrnaform)}>Thyrnaform</button></li>
+                <li className="cladeItem"><button className="cladeButton" onClick={() => cladeSetter(six)}>[DATA MISSING]</button></li>
+                <li className="cladeItem"><button className="cladeButton" onClick={() => cladeSetter(ljousaeti)}>Ljousaeti</button></li>
             </ul>
 
             <Tree

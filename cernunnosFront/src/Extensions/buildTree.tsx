@@ -9,7 +9,7 @@ export default function buildTree(nodes: FlatNode[]): RawNodeDatum[] {
         map[node.id] = {
             name: node.name,
             children: [],
-            attributes: { id: node.id, desc: node.desc }
+            attributes: { id: node.id, desc: node.morphology }
         };
     });
 

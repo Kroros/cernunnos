@@ -11,17 +11,17 @@ export default function GeoAgesTab() {
 
                 <tr>
                     <td rowSpan={3} className="tableData">Protean</td>
-                    <td className="tableData">Nidusian</td>
+                    <td className="tableData">Nidusene</td>
                     <td className="tableData">-</td>
                     <td className="tableData">0-198</td>
                 </tr>
                 <tr>
-                    <td className="tableData">Lavosian</td>
+                    <td className="tableData">Lavosene</td>
                     <td className="tableData">-</td>
                     <td className="tableData">198-291</td>
                 </tr>
                 <tr>
-                    <td className="tableData">Qorvian</td>
+                    <td className="tableData">Qorvene</td>
                     <td className="tableData">-</td>
                     <td className="tableData">291-450</td>
                 </tr>
@@ -44,7 +44,7 @@ export default function GeoAgesTab() {
                     <td className="tableData">534-602</td>
                 </tr>
                 <tr>
-                    <td rowSpan={3} className="tableData">Kullervian</td>
+                    <td rowSpan={3} className="tableData">Kullervic</td>
                     <td className="tableData">Sarynic</td>
                     <td className="tableData">602-647</td>
                 </tr>

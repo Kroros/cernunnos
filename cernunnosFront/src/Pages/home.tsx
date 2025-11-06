@@ -68,7 +68,7 @@ function Home() {
                   snd.currentTime = 0;
                 }}
               >
-                evolution of life [MASSIVE DATA LOSS: RECOVERY IN PROGRESS]
+                evolutionary history [MASSIVE DATA LOSS: RECOVERY IN PROGRESS]
               </button>
             </a>
           </li>
@@ -81,11 +81,11 @@ function Home() {
                   snd.currentTime = 0;
                 }}
               >
-                history and culture [MASSIVE DATA LOSS: RECOVERY IN PROGRESS]
+                anthropolgy [MASSIVE DATA LOSS: RECOVERY IN PROGRESS]
               </button>
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="#/language" className="mainLink">
               <button
                 className="buttonLink"
@@ -97,7 +97,7 @@ function Home() {
                 lanagues of annwn [MASSIVE DATA LOSS: IN RECOVERY QUEUE]
               </button>
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </>

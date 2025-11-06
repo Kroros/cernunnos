@@ -165,14 +165,15 @@ table {
 .cladeSelector {
     background-color: #000000;
     list-style-type: none;
-    margin-left: 35%;
-    overflow: hidde;
+    margin-left: 17.5%;
+    overflow: hidden;
 }
 .cladeItem {
     background-color: #000000;
     border: 1px solid rgb(0, 200, 0);
     float: left;
     padding: 0.5%;
+    margin: 0.5%;
 }
 .cladeButton {
     border: 0px;
@@ -197,6 +198,7 @@ table {
 .genusDesc {
     flex: 1;
     color:rgb(0, 200, 0);
+    white-space: pre-line;
 }
 .genusTitle {
     font-weight: 300;
@@ -209,4 +211,11 @@ table {
     border: 1px solid rgb(0, 200, 0);
     margin-left: 2.5%;
     margin-top: 1%;
+}
+.gallery {
+    width: 100%;
+}
+.galleryObject {
+    width: 30%;
+    border: 1px solid rgb(0, 200, 0);
 }

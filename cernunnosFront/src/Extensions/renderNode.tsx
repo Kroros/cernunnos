@@ -3,12 +3,16 @@ import { Link } from "react-router-dom";
 export default function renderNode( { nodeDatum }: any) {
     const boxWidth = 400;
     const boxHeight = 40;
+    var snd = new Audio("snd/buttonClick.mp3");
 
     return (
         <g>
             
             <Link
                 to={`/genus/${nodeDatum.attributes.id}`}
+                onClick={() => {snd.play();
+                    snd.currentTime = 0;
+                }}
                 style={{
                     display: "flex",
                     width: "100%",
