@@ -17,8 +17,6 @@ import LvgvsRep from "./Pages/Subpages/LvgvsRep";
 import Planet from "./Pages/Planet";
 import AnnwnTab from "./Pages/Subpages/AnnwnTab";
 import GwynnTab from "./Pages/Subpages/GwynnTab";
-import Forum from "./Pages/Forum";
-import PostPage from "./Components/PostPage";
 import Prologue from "./Pages/Prologue";
 import FileLost from "./Pages/FileLost";
 import DataRecovery2 from "./Pages/DataRecovery2";
@@ -34,10 +32,8 @@ function App() {
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/prologue" element={<Prologue />} />
-            <Route path="/forum" element={<Forum />} />
             <Route path="/filelost" element={<FileLost />} />
             <Route path="/post">
-            <Route path=":postId" element={<PostPage />} />
             </Route>
             <Route path="/galaxy" element={<Galaxy />} />
             <Route path="/starSystem" element={<StarSystem />} />
