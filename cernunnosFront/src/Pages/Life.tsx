@@ -3,14 +3,14 @@ import FileLink from "../Components/FileLink";
 import Paragraph from "../Components/Paragraph";
 import ReturnButton from "../Components/ReturnButton";
 import Tree from "react-d3-tree";
-import { opinnmagi, holtdyyr, hringlagaform, thyrnaform, ljousaeti, six, type FlatNode } from "../cladogram"
+import { opinnmagi, holtdyyr, hringlagaform, thyrnaform, ljousaeti, type FlatNode } from "../cladogram"
 import buildTree from "../Extensions/buildTree";
 import renderNode from "../Extensions/renderNode";
 import { useState } from "react";
 
 function Life() {
     const [ clade, setClade ] = useState<FlatNode[]>(opinnmagi);
-    var snd = new Audio("snd/buttonClick.mp3");
+    const snd = new Audio("snd/buttonClick.mp3");
 
     function cladeSetter(taxon: FlatNode[]) {
         snd.play();
@@ -30,16 +30,18 @@ function Life() {
                 Geological time periods have been tabulated below.
                 `}
         />
-        <FileLink 
-            fileLink="/img/biogeo_realms.png"
-            caption="Biogeographic Realms"
-            icoSource="img/ico/imgIco.png"
-        />
         <FileLink
             fileLink="#/geoAgesTab"
             caption="Geological time periods"
             icoSource="img/ico/tabIco.png"
         />
+
+        <FileLink 
+            fileLink="/img/biogeo_realms.png"
+            caption="Biogeographic Realms 450Ma"
+            icoSource="img/ico/imgIco.png"
+        />
+        
 
         <div className="treeMap">
             <ul className="cladeSelector">
@@ -47,7 +49,6 @@ function Life() {
                 <li className="cladeItem"><button className="cladeButton" onClick={() => cladeSetter(holtdyyr)}>Holtdyyr</button></li>
                 <li className="cladeItem"><button className="cladeButton" onClick={() => cladeSetter(hringlagaform)}>Hringlagaform</button></li>
                 <li className="cladeItem"><button className="cladeButton" onClick={() => cladeSetter(thyrnaform)}>Thyrnaform</button></li>
-                <li className="cladeItem"><button className="cladeButton" onClick={() => cladeSetter(six)}>[DATA MISSING]</button></li>
                 <li className="cladeItem"><button className="cladeButton" onClick={() => cladeSetter(ljousaeti)}>Ljousaeti</button></li>
             </ul>
 

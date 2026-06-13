@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom"
 import type { FlatNode } from "../cladogram";
-import { opinnmagi, holtdyyr, hringlagaform, thyrnaform, six, ljousaeti } from "../cladogram";
+import { opinnmagi, holtdyyr, hringlagaform, thyrnaform, ljousaeti } from "../cladogram";
 import InfoBox from "../Components/InfoBox";
 import type { BodyTraits } from "../cladogram";
 import { Meta } from "react-head";
@@ -53,10 +53,7 @@ export default function Genus() {
         genus = hringlagaform.find(g => g.id === id) ?? nullGenus;
     } else if (id?.startsWith("hreyfimadhur.thyrnaform")) {
         genus = thyrnaform.find(g => g.id === id) ?? nullGenus;
-    } else if (id?.startsWith("[DATA MISSING].[DATA MISSING]")) {
-        genus = six.find(g => g.id === id) ?? nullGenus;
-    }
-    else if (id?.startsWith("ljousaeti")) {
+    } else if (id?.startsWith("ljousaeti")) {
         genus = ljousaeti.find(g => g.id === id) ?? nullGenus;
     }
 
@@ -100,6 +97,11 @@ export default function Genus() {
                     {genus.ecology && <><hr/>
                     <h2 className="genusTitle">Interactions with Local Biosphere</h2>
                     <p className="genusDesc">{genus.ecology}</p></>}
+
+                    {genus.evoHist && <><hr/>
+                        <h2 className="genusTitle">Evolutionary History</h2>
+                        <p className="genusDesc">{genus.evoHist}</p>
+                        </>}
 
                     {genus.extraImgs.length > 0 && <><hr/>
                     <h2 className="genusTitle">Gallery</h2>

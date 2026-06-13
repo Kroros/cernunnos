@@ -1,7 +1,7 @@
 * {
     background-color: #000000;
     color: rgb(0, 200, 0);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier", monospace;
     text-align: left;
     padding: 0;
 }
@@ -24,7 +24,7 @@ li {
 button {
   border-radius: 0px;
   font-family: inherit;
-  font-size:100%;
+  font-size:110%;
   background-color: #000;
   cursor: pointer;
 }
@@ -35,6 +35,12 @@ button {
 .pageTitle {
     text-align: left;
     margin-bottom: 0;
+    font-size: 200%;
+}
+.pageSubTitle {
+    text-align: left;
+    margin-bottom: 0;
+    font-size: 150%;
 }
 .linkList {
     text-align: left;
@@ -44,6 +50,7 @@ button {
     color: rgb(0, 200, 0);
     text-decoration: none;
     text-align: left;
+    font-size: 120%;
 }
 .coverImage {
     width: 100%;
@@ -55,7 +62,7 @@ button {
 .imageCaption {
     background-color: rgba(0, 0, 0, 0);
     user-select: none;
-    font-family: "Helvetica";
+    font-family: inherit;
     position: absolute;
     top: 45%;
     left: 50%;
@@ -69,12 +76,14 @@ button {
     margin-bottom: 0;
 }
 .paragraphTitle {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Courier, monospace;
+    font-size: 130%;
     text-align: left;
     margin-bottom: 0;
 }
 .paragraphText {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Courier, monospace;
+    font-size: 120%;
     display: block;
     margin-top: auto;
     text-align: left;
@@ -82,19 +91,18 @@ button {
     width: 50%;
 }
 .imageLinkContainer {
+    padding: 1% 4% 0% 1%;
     display: inline-block;
     border: 1px solid rgb(0, 200, 0);
     white-space: nowrap;
 }
 .imageLink {
-    padding: 0;
     text-decoration: none;
     color: rgb(0, 200, 0);
-    margin: 0;
+    margin: 1%;
 }
 .linkIcon {
     width: 0.3in;
-    margin-top: 4%;
 }
 .buttonContainer {
     display: inline-block;
@@ -121,6 +129,7 @@ table {
 .returnButton {
     display: inline-block;
     border: 1px solid rgb(0, 200, 0);
+    padding: 5px 5px 0px 5px;
 }
 .postButton {
     border: 1px solid rgb(0, 200, 0);

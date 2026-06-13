@@ -25,7 +25,7 @@ function FileLink({ fileLink, caption, icoSource }: File) {
           {icoSource === null ? (icon = false) : (icon = true)}
           <p className="imageLink">
             {icon && <img src={icoSource} className="linkIcon"></img>}
-            {caption}
+            {"  " + caption}
           </p>
         </button>
       </a>

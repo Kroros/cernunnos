@@ -8,6 +8,7 @@ export interface FlatNode {
     habitat: string,
     behaviours: string,
     ecology: string,
+    evoHist?: string,
     bodyTraits: BodyTraits,
     extraImgs: string[],
 }
@@ -230,41 +231,6 @@ export const thyrnaform: FlatNode[] = [
     }, //Thyrnaform
 ];
 
-export const six: FlatNode[] = [
-    {
-        id: "[DATA MISSING].[DATA MISSING]",
-        parent: null,
-        name: "[DATA MISSING]", //
-        morphology: `[DATA MISSING]`,
-        physiology: `[DATA MISSING]`,
-        reproduction: `[DATA MISSING]`,
-        habitat: `[DATA MISSING]`,
-        behaviours: ``,
-        ecology: ``,
-        bodyTraits: {
-            motility: "Motile",
-            symmetry: "Bilateral",
-            segmented: true,
-            locomotion: "",
-            gasExchange: "Diffusion",
-            nutrition: "Body Cavity",
-            excretion: "Through Gut",
-            senses: [""],
-            defence: "",
-            reproduction: {
-                manner: "Sexual",
-                isogamy: false,
-                ecy: "Dioecious",
-                sexDetermination: "",
-                fertilisation: "External",
-                morphology: ""
-            },
-            notes: "",
-        },
-        extraImgs: [],
-    },
-];
-
 export const ljousaeti: FlatNode[] = [
     {
         id: "ljousaeti",
@@ -292,6 +258,39 @@ export const ljousaeti: FlatNode[] = [
                 ecy: "Monoecious",
                 sexDetermination: "No Sex",
                 fertilisation: "None",
+                morphology: ""
+            },
+            notes: "",
+        },
+        extraImgs: [],
+    },
+    {
+        id: "ljousaeti.loftoendun",
+        parent: "ljousaeti",
+        name: "Loftoendun", 
+        morphology: `The main body of a Loftoendun individual is a small blob, with a set of roots protruding out of it. In the center stands a stalk carrying the gametangia.`,
+        physiology: `The body of a Loftoendun individual is covered entirely in photosynthetic pigment. Unlike their Ljousaeti ancestors, Loftoendun have evolved vascular roots with which they can absord moisture and nutrients from the ground. Furthermore, their bodies are covered in stomata which facilitate gas exchange.`,
+        reproduction: `Loftoendun have developed sexual reproduction, where an individual can have both male and female gametangia. The central stem growing from their bodies carries the gametangia. The male gametes are dispersed, with the goal of ending up in a female gametangium, where a spore will be formed and dispersed.`,
+        habitat: ``,
+        behaviours: ``,
+        ecology: ``,
+        evoHist: `As Ljousaeti continued to evolve, a number of colonies transformed into single multicellular organisms. A number of individuals would then drift toward shorelines, and would get stranded on land during low tide. These individuals evolved to be able to spend extended periods on land, until they could spend their entire lifetimes outside the ocean. As population densities on land increased, the species switched to sexual reproduction to increase genetic diversity.`,
+        bodyTraits: {
+            motility: "Motile",
+            symmetry: "Bilateral",
+            segmented: true,
+            locomotion: "",
+            gasExchange: "Diffusion",
+            nutrition: "Body Cavity",
+            excretion: "Through Gut",
+            senses: [""],
+            defence: "",
+            reproduction: {
+                manner: "Sexual",
+                isogamy: false,
+                ecy: "Dioecious",
+                sexDetermination: "",
+                fertilisation: "External",
                 morphology: ""
             },
             notes: "",

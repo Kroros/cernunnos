@@ -5,8 +5,7 @@ function Home() {
       <div className="pageBody">
         <p className="pageTitle">CERNUNNOS</p>
         <br />
-        <p className="pageTitle">logs:</p>
-        <ul className="linkList">
+        <p className="pageSubTitle">logs:</p> <ul className="linkList">
           <li>
             <a href="#/prologue" className="mainLink">
               <button
